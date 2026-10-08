@@ -1,0 +1,1186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Connection Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>Connection</Alias>
+        <ConnectionString>Initial Catalog=RBI;Integrated Security=False;Password=myplant;User ID=sa;Data Source=localhost</ConnectionString>
+        <Name>Connection</Name>
+      </Connection>
+    </Databases>
+    <DataSources isList="true" count="22">
+      <AmineCracking Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>AmineCracking</Alias>
+        <Columns isList="true" count="1">
+          <value>AmDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>AmineCracking</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from AmineCracking</SqlCommand>
+      </AmineCracking>
+      <CarbonateCracking Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>CarbonateCracking</Alias>
+        <Columns isList="true" count="1">
+          <value>CO3Df,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>CarbonateCracking</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from CarbonateCracking</SqlCommand>
+      </CarbonateCracking>
+      <CausticCracking Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>CausticCracking</Alias>
+        <Columns isList="true" count="1">
+          <value>CSDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>CausticCracking</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from CausticCracking</SqlCommand>
+      </CausticCracking>
+      <CLSCC Ref="6" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>CLSCC</Alias>
+        <Columns isList="true" count="1">
+          <value>CLSDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>CLSCC</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from CLSCC</SqlCommand>
+      </CLSCC>
+      <CUI Ref="7" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>CUI</Alias>
+        <Columns isList="true" count="1">
+          <value>CUIDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>CUI</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from CUI</SqlCommand>
+      </CUI>
+      <ECD Ref="8" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>ECD</Alias>
+        <Columns isList="true" count="1">
+          <value>ECDDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>ECD</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from ECD</SqlCommand>
+      </ECD>
+      <ExCLS Ref="9" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>ExCLS</Alias>
+        <Columns isList="true" count="1">
+          <value>ExCLSDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>ExCLS</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from ExCLS</SqlCommand>
+      </ExCLS>
+      <ExCUI Ref="10" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>ExCUI</Alias>
+        <Columns isList="true" count="1">
+          <value>ExCUIDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>ExCUI</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from ExCUI</SqlCommand>
+      </ExCUI>
+      <HF Ref="11" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>HF</Alias>
+        <Columns isList="true" count="1">
+          <value>HFDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>HF</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from HF</SqlCommand>
+      </HF>
+      <HIC Ref="12" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>HIC</Alias>
+        <Columns isList="true" count="1">
+          <value>HICDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>HIC</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from HIC</SqlCommand>
+      </HIC>
+      <HSC Ref="13" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>HSC</Alias>
+        <Columns isList="true" count="1">
+          <value>HSCDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>HSC</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from HSC</SqlCommand>
+      </HSC>
+      <HTHA Ref="14" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>HTHA</Alias>
+        <Columns isList="true" count="1">
+          <value>HTHADf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>HTHA</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from HTHA</SqlCommand>
+      </HTHA>
+      <ThinningDamage Ref="15" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>ThinningDamage</Alias>
+        <Columns isList="true" count="1">
+          <value>Tdf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>ThinningDamage</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from ThinningDamage</SqlCommand>
+      </ThinningDamage>
+      <RiskRanking Ref="16" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>RiskRanking</Alias>
+        <Columns isList="true" count="4">
+          <value>CompName,System.String</value>
+          <value>EquipType,System.String</value>
+          <value>POFCate,System.String</value>
+          <value>POFval,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>RiskRanking</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from RiskRanking</SqlCommand>
+      </RiskRanking>
+      <LiningDamage Ref="17" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>LiningDamage</Alias>
+        <Columns isList="true" count="1">
+          <value>DfLine,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>LiningDamage</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from LiningDamage</SqlCommand>
+      </LiningDamage>
+      <PTA Ref="18" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>PTA</Alias>
+        <Columns isList="true" count="1">
+          <value>PTADf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>PTA</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from PTA</SqlCommand>
+      </PTA>
+      <SulfideCracking Ref="19" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>SulfideCracking</Alias>
+        <Columns isList="true" count="1">
+          <value>SulDf,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>SulfideCracking</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from SulfideCracking</SqlCommand>
+      </SulfideCracking>
+      <Brittle_Facture Ref="20" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Brittle_Facture</Alias>
+        <Columns isList="true" count="1">
+          <value>Dfb,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>Brittle_Facture</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from Brittle_Facture</SqlCommand>
+      </Brittle_Facture>
+      <EightEightFive Ref="21" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>EightEightFive</Alias>
+        <Columns isList="true" count="1">
+          <value>Df885,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>EightEightFive</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from EightEightFive</SqlCommand>
+      </EightEightFive>
+      <Mechanical_Fatigue Ref="22" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Mechanical_Fatigue</Alias>
+        <Columns isList="true" count="1">
+          <value>DfMech,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>Mechanical_Fatigue</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from Mechanical_Fatigue</SqlCommand>
+      </Mechanical_Fatigue>
+      <Sigma_Phase Ref="23" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Sigma_Phase</Alias>
+        <Columns isList="true" count="1">
+          <value>DfSigma,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>Sigma_Phase</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from Sigma_Phase</SqlCommand>
+      </Sigma_Phase>
+      <Temper_Embrit Ref="24" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Temper_Embrit</Alias>
+        <Columns isList="true" count="1">
+          <value>DfTemp,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>Temper_Embrit</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from Temper_Embrit</SqlCommand>
+      </Temper_Embrit>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="25" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="74">
+        <Text2 Ref="26" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,2.7,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{ThinningDamage.Tdf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text2>
+        <Text3 Ref="27" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,2.7,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text3</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-Thinning</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text3>
+        <Text4 Ref="28" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,1.5,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text4</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{RiskRanking.EquipType}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text4>
+        <Text5 Ref="29" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,1.5,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text5</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>EquipType</Text>
+          <TextBrush>Black</TextBrush>
+        </Text5>
+        <Text6 Ref="30" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,2.1,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text6</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{RiskRanking.CompName}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text6>
+        <Text7 Ref="31" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,2.1,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text7</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>CompName</Text>
+          <TextBrush>Black</TextBrush>
+        </Text7>
+        <Text1 Ref="32" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.3,0.4,1.2,0.3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,14,Bold| Italic</Font>
+          <Guid>3607dfd3878847688651fec3f88d88d1</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>POF Report</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text1>
+        <Text9 Ref="33" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,3.3,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text9</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-Liner</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text9>
+        <Text8 Ref="34" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,3.3,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text8</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{LiningDamage.DfLine}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text8>
+        <Text10 Ref="35" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,3.9,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text10</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{ECD.ECDDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text10>
+        <Text11 Ref="36" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,3.9,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text11</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-External</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text11>
+        <Text12 Ref="37" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,4.5,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text12</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{CUI.CUIDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text12>
+        <Text13 Ref="38" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,4.5,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text13</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-CUIF</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text13>
+        <Text14 Ref="39" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,5.1,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text14</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{ExCLS.ExCLSDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text14>
+        <Text15 Ref="40" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,5.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text15</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-Ext-CLSCC</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text15>
+        <Text16 Ref="41" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,5.7,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text16</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{ExCUI.ExCUIDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text16>
+        <Text17 Ref="42" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,5.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text17</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-CUI-CLSCC</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text17>
+        <Text18 Ref="43" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,6.3,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text18</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{CausticCracking.CSDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text18>
+        <Text19 Ref="44" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,6.3,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text19</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-Caustic</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text19>
+        <Text20 Ref="45" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,7,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text20</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{AmineCracking.AmDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text20>
+        <Text21 Ref="46" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,7,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text21</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-Amine</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text21>
+        <Text22 Ref="47" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,7.7,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text22</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{SulfideCracking.SulDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text22>
+        <Text23 Ref="48" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,7.7,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text23</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-SCC</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text23>
+        <Text24 Ref="49" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,0.9,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Guid>1d28c0342af4418f84fa239a527a9d41</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text24</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>DamageFactor</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text24>
+        <Text25 Ref="50" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,0.9,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Guid>8541a6a48bce4d4a852999362e8c0e90</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text25</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Value</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text25>
+        <Text26 Ref="51" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,0.9,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Guid>3daf6ba0763a430bab2bdc5fe0b6d475</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text26</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>DamageFactor</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text26>
+        <Text27 Ref="52" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.3,0.9,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Guid>109d6d0f668c482eaf6a47084a88ce49</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text27</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Value</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text27>
+        <Text28 Ref="53" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,8.4,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text28</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{HIC.HICDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text28>
+        <Text29 Ref="54" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,8.4,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text29</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-SOHIC</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text29>
+        <Text30 Ref="55" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,9.1,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text30</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{CarbonateCracking.CO3Df}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text30>
+        <Text31 Ref="56" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,9.1,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text31</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-Corbonate</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text31>
+        <Text32 Ref="57" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,1.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{PTA.PTADf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text32>
+        <Text33 Ref="58" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,1.5,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text33</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-PTA</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text33>
+        <Text34 Ref="59" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,2.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text34</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{CLSCC.CLSDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text34>
+        <Text35 Ref="60" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,2.1,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text35</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-CLSCC</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text35>
+        <Text36 Ref="61" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,2.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text36</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{HSC.HSCDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text36>
+        <Text37 Ref="62" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,2.7,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text37</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-HSC-HF</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text37>
+        <Text38 Ref="63" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,3.3,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text38</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{HF.HFDf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text38>
+        <Text39 Ref="64" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,3.3,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text39</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Dfb-SOHIC-HF</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text39>
+        <Text40 Ref="65" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,3.9,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text40</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{HTHA.HTHADf}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text40>
+        <Text41 Ref="66" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,3.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text41</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-HTHA</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text41>
+        <Text43 Ref="67" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,4.5,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text43</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-Brittle</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text43>
+        <Text45 Ref="68" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,5.1,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text45</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-Temper</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text45>
+        <Text47 Ref="69" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,5.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text47</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-885</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text47>
+        <Text49 Ref="70" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,6.3,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text49</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-Sigma</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text49>
+        <Text51 Ref="71" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,7,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text51</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>Df-Mechanical</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text51>
+        <Text56 Ref="72" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,7.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text56</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{RiskRanking.POFval}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text56>
+        <Text57 Ref="73" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,7.7,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text57</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>POF Totaval</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text57>
+        <Text52 Ref="74" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,8.4,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text52</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{RiskRanking.POFCate}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text52>
+        <Text53 Ref="75" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,8.4,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text53</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>POF Category</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text53>
+        <Text42 Ref="76" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,4.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text42</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{Brittle_Facture.Dfb}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text42>
+        <Text46 Ref="77" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,5.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text46</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{EightEightFive.Df885}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text46>
+        <Text50 Ref="78" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text50</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{Mechanical_Fatigue.DfMech}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text50>
+        <Text48 Ref="79" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,6.3,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text48</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{Sigma_Phase.DfSigma}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text48>
+        <Text44 Ref="80" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,5.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text44</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <Text>{Temper_Embrit.DfTemp}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text44>
+        <HeaderBand1 Ref="81" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,7.49,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </HeaderBand1>
+        <RectanglePrimitive1 Ref="82" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.1,0.8,1.8,9</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>7bc02e3d72224dfc9b292c25b705e8d9</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </RectanglePrimitive1>
+        <StartPointPrimitive1 Ref="83" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>0.1,0.8,0,0</ClientRectangle>
+          <Name>StartPointPrimitive1</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>7bc02e3d72224dfc9b292c25b705e8d9</ReferenceToGuid>
+        </StartPointPrimitive1>
+        <EndPointPrimitive1 Ref="84" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>1.9,9.8,0,0</ClientRectangle>
+          <Name>EndPointPrimitive1</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>7bc02e3d72224dfc9b292c25b705e8d9</ReferenceToGuid>
+        </EndPointPrimitive1>
+        <RectanglePrimitive2 Ref="85" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>1.9,0.8,1.9,9</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>32d651f141784051a843427a1cd4c2a7</Guid>
+          <Name>RectanglePrimitive2</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </RectanglePrimitive2>
+        <StartPointPrimitive2 Ref="86" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>1.9,0.8,0,0</ClientRectangle>
+          <Name>StartPointPrimitive2</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>32d651f141784051a843427a1cd4c2a7</ReferenceToGuid>
+        </StartPointPrimitive2>
+        <EndPointPrimitive2 Ref="87" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>3.8,9.8,0,0</ClientRectangle>
+          <Name>EndPointPrimitive2</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>32d651f141784051a843427a1cd4c2a7</ReferenceToGuid>
+        </EndPointPrimitive2>
+        <RectanglePrimitive3 Ref="88" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>3.8,0.8,1.8,9</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>d1edfb3b4f6f46f5808505f6c111bc62</Guid>
+          <Name>RectanglePrimitive3</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </RectanglePrimitive3>
+        <StartPointPrimitive3 Ref="89" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>3.8,0.8,0,0</ClientRectangle>
+          <Name>StartPointPrimitive3</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>d1edfb3b4f6f46f5808505f6c111bc62</ReferenceToGuid>
+        </StartPointPrimitive3>
+        <EndPointPrimitive3 Ref="90" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>5.6,9.8,0,0</ClientRectangle>
+          <Name>EndPointPrimitive3</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>d1edfb3b4f6f46f5808505f6c111bc62</ReferenceToGuid>
+        </EndPointPrimitive3>
+        <RectanglePrimitive4 Ref="91" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>5.6,0.8,1.8,9</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>34ec7f3891e2498e8776161ec47f32e4</Guid>
+          <Name>RectanglePrimitive4</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </RectanglePrimitive4>
+        <StartPointPrimitive4 Ref="92" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>5.6,0.8,0,0</ClientRectangle>
+          <Name>StartPointPrimitive4</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>34ec7f3891e2498e8776161ec47f32e4</ReferenceToGuid>
+        </StartPointPrimitive4>
+        <EndPointPrimitive4 Ref="93" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>7.4,9.8,0,0</ClientRectangle>
+          <Name>EndPointPrimitive4</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>34ec7f3891e2498e8776161ec47f32e4</ReferenceToGuid>
+        </EndPointPrimitive4>
+        <RectanglePrimitive5 Ref="94" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.1,0.3,7.3,0.4</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>bbe375053acc473c92fedd3f5b7a4388</Guid>
+          <Name>RectanglePrimitive5</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </RectanglePrimitive5>
+        <StartPointPrimitive5 Ref="95" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>0.1,0.3,0,0</ClientRectangle>
+          <Name>StartPointPrimitive5</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>bbe375053acc473c92fedd3f5b7a4388</ReferenceToGuid>
+        </StartPointPrimitive5>
+        <EndPointPrimitive5 Ref="96" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>7.4,0.7,0,0</ClientRectangle>
+          <Name>EndPointPrimitive5</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>bbe375053acc473c92fedd3f5b7a4388</ReferenceToGuid>
+        </EndPointPrimitive5>
+        <RectanglePrimitive6 Ref="97" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.1,0.8,7.3,0.4</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>2c4902117cd54c779544b9a9ef53c747</Guid>
+          <Name>RectanglePrimitive6</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+        </RectanglePrimitive6>
+        <StartPointPrimitive6 Ref="98" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>0.1,0.8,0,0</ClientRectangle>
+          <Name>StartPointPrimitive6</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>2c4902117cd54c779544b9a9ef53c747</ReferenceToGuid>
+        </StartPointPrimitive6>
+        <EndPointPrimitive6 Ref="99" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>7.4,1.2,0,0</ClientRectangle>
+          <Name>EndPointPrimitive6</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <ReferenceToGuid>2c4902117cd54c779544b9a9ef53c747</ReferenceToGuid>
+        </EndPointPrimitive6>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>65521bf3b2544963a0d4829d4bd07f52</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11.69</PageHeight>
+      <PageWidth>8.27</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="100" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="101" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>7/17/2014 10:43:16 AM</ReportChanged>
+  <ReportCreated>7/15/2014 7:41:53 PM</ReportCreated>
+  <ReportFile>C:\inetpub\wwwroot\RBI\Reports\POF.mrt</ReportFile>
+  <ReportGuid>dd566c6e971e4c2dbf109133d74b288c</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2011.2.1100</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

@@ -1,0 +1,2822 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Connection Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>Connection</Alias>
+        <ConnectionStringEncrypted>+Wr3iVZX2cFqXaH4dyX2p95U+yvJV/uZbFu5pek9KGfYcLmhW0tKzWlMpQhObORjx/Jpz91Zo0FpCKXcYXglL9Ngy+thWQHx+U3t7GF0JXvRcIEJTFtDzW9c7ZhgPec=</ConnectionStringEncrypted>
+        <Name>Connection</Name>
+      </Connection>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <COF_Flammable Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>COF_Flammable</Alias>
+        <Columns isList="true" count="102">
+          <value>FlameID,System.Decimal</value>
+          <value>ProcID,System.Decimal</value>
+          <value>EquID,System.Decimal</value>
+          <value>CompID,System.Decimal</value>
+          <value>Fluid,System.String</value>
+          <value>Repfluid,System.String</value>
+          <value>Type,System.String</value>
+          <value>OpPres,System.String</value>
+          <value>Optemp,System.String</value>
+          <value>P1,System.String</value>
+          <value>Mass,System.String</value>
+          <value>Detect,System.String</value>
+          <value>Iso,System.String</value>
+          <value>factMit,System.String</value>
+          <value>w1,System.String</value>
+          <value>w2,System.String</value>
+          <value>w3,System.String</value>
+          <value>w4,System.String</value>
+          <value>Time1,System.String</value>
+          <value>Time2,System.String</value>
+          <value>Time3,System.String</value>
+          <value>Time4,System.String</value>
+          <value>T1,System.String</value>
+          <value>T2,System.String</value>
+          <value>T3,System.String</value>
+          <value>T4,System.String</value>
+          <value>rate1,System.String</value>
+          <value>rate2,System.String</value>
+          <value>rate3,System.String</value>
+          <value>rate4,System.String</value>
+          <value>id1,System.String</value>
+          <value>id2,System.String</value>
+          <value>id3,System.String</value>
+          <value>id4,System.String</value>
+          <value>mass1,System.String</value>
+          <value>mass2,System.String</value>
+          <value>mass3,System.String</value>
+          <value>mass4,System.String</value>
+          <value>eneff,System.String</value>
+          <value>CaA,System.String</value>
+          <value>CaB,System.String</value>
+          <value>CAc1,System.String</value>
+          <value>CAc2,System.String</value>
+          <value>CAc3,System.String</value>
+          <value>CAc4,System.String</value>
+          <value>CaInsA,System.String</value>
+          <value>CaInsB,System.String</value>
+          <value>CAIns1,System.String</value>
+          <value>CAIns2,System.String</value>
+          <value>CAIns3,System.String</value>
+          <value>CAIns4,System.String</value>
+          <value>Ainj,System.String</value>
+          <value>Binj,System.String</value>
+          <value>CAInj1,System.String</value>
+          <value>CAInj2,System.String</value>
+          <value>CAInj3,System.String</value>
+          <value>CAInj4,System.String</value>
+          <value>AInsInj,System.String</value>
+          <value>BInsInj,System.String</value>
+          <value>CAInsInj1,System.String</value>
+          <value>CAInsInj2,System.String</value>
+          <value>CAInsInj3,System.String</value>
+          <value>CAInsInj4,System.String</value>
+          <value>factic1,System.String</value>
+          <value>factic2,System.String</value>
+          <value>factic3,System.String</value>
+          <value>factic4,System.String</value>
+          <value>CAcmd1,System.String</value>
+          <value>CAcmd2,System.String</value>
+          <value>CAcmd3,System.String</value>
+          <value>CAcmd4,System.String</value>
+          <value>CAbleInj1,System.String</value>
+          <value>CAbleInj2,System.String</value>
+          <value>CAbleInj3,System.String</value>
+          <value>CAbleInj4,System.String</value>
+          <value>CAcmdFinal1,System.String</value>
+          <value>CAcmdFinal2,System.String</value>
+          <value>CAcmdFinal3,System.String</value>
+          <value>CAcmdFinal4,System.String</value>
+          <value>CAInjFinal1,System.String</value>
+          <value>CAInjFinal2,System.String</value>
+          <value>CAInjFinal3,System.String</value>
+          <value>CAInjFinal4,System.String</value>
+          <value>CAcmdTotal,System.String</value>
+          <value>CAInjTotal,System.String</value>
+          <value>CAcmdCate,System.String</value>
+          <value>CAinjCate,System.String</value>
+          <value>maxval,System.String</value>
+          <value>maxcate,System.String</value>
+          <value>CreatedBy,System.Decimal</value>
+          <value>CreatedDate,System.DateTime</value>
+          <value>ModifiedBy,System.Decimal</value>
+          <value>ModifiedDate,System.DateTime</value>
+          <value>Rowversions,System.Int32</value>
+          <value>Deleted,System.Boolean</value>
+          <value>ptrans,System.String</value>
+          <value>EquPID,System.String</value>
+          <value>ProcessArea,System.String</value>
+          <value>CompNo,System.String</value>
+          <value>CompName,System.String</value>
+          <value>EqupType,System.String</value>
+          <value>FluidStored,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>COF_Flammable</Name>
+        <NameInSource>Connection</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from VW_COF_Flammable</SqlCommand>
+      </COF_Flammable>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="4" type="Page" isKey="true">
+      <Border>All;Black;2;Double;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="217">
+        <Text1 Ref="5" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.7,0.3,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Fluid}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text1>
+        <Text2 Ref="6" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.6,0.3,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Fluid Properties :</Text>
+          <TextBrush>Black</TextBrush>
+        </Text2>
+        <Text3 Ref="7" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.8,0.3,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text3</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Repfluid}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text3>
+        <Text4 Ref="8" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,0.3,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text4</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Ref Fluid :</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text4>
+        <Text5 Ref="9" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,0.5,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text5</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Type}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text5>
+        <Text7 Ref="10" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.5,0.3,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text7</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Fluid}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text7>
+        <Text8 Ref="11" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,0.3,1.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text8</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Phase After Fluid Release :</Text>
+          <TextBrush>Black</TextBrush>
+        </Text8>
+        <Text6 Ref="12" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,0.5,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>1c838c933a0144ec9c39c4f93c523839</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text6</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Type :</Text>
+          <TextBrush>Black</TextBrush>
+        </Text6>
+        <Text9 Ref="13" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,0,3.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,11.25,Bold,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text9</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CONSEQUENCE OF FAILURE  (COF) ANALYSIS</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text9>
+        <Text10 Ref="14" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.2,0.5,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text10</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Optemp}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text10>
+        <Text11 Ref="15" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.3,0.5,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text11</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Opn Temp :</Text>
+          <TextBrush>Black</TextBrush>
+        </Text11>
+        <Text12 Ref="16" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,0.5,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text12</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.OpPres}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text12>
+        <Text13 Ref="17" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,0.5,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text13</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Opn Press,psia :</Text>
+          <TextBrush>Black</TextBrush>
+        </Text13>
+        <Text14 Ref="18" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.9,0.5,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text14</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Mass}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text14>
+        <Text15 Ref="19" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.2,0.5,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text15</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Mass,lbs :</Text>
+          <TextBrush>Black</TextBrush>
+        </Text15>
+        <Text17 Ref="20" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.7,0.5,0.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>43581d89ea0a4517b63a789f040fe702</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text17</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>R :  8.314</Text>
+          <TextBrush>Black</TextBrush>
+        </Text17>
+        <Text18 Ref="21" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,0.7,4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text18</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Release area,An, on each holes size  0.25", 1", 4" and 16"(rupture)</Text>
+          <TextBrush>Black</TextBrush>
+        </Text18>
+        <Text19 Ref="22" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,0.9,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text19</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>A1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text19>
+        <Text20 Ref="23" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.9,0.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text20</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>0.049</Text>
+          <TextBrush>Black</TextBrush>
+        </Text20>
+        <Text21 Ref="24" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.6,0.9,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text21</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>A2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text21>
+        <Text22 Ref="25" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.9,0.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text22</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>0.785</Text>
+          <TextBrush>Black</TextBrush>
+        </Text22>
+        <Text23 Ref="26" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,0.9,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text23</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>A3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text23>
+        <Text24 Ref="27" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.8,0.9,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text24</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>12.56</Text>
+          <TextBrush>Black</TextBrush>
+        </Text24>
+        <Text25 Ref="28" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.3,0.9,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text25</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>A4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text25>
+        <Text26 Ref="29" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,0.9,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text26</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>200.96</Text>
+          <TextBrush>Black</TextBrush>
+        </Text26>
+        <Text27 Ref="30" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,1.1,5.7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text27</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Fraction on generic failure frequency, gff on each release hole size, 0.25",1",4" and 16"(rupture)</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text27>
+        <Text28 Ref="31" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.3,1.3,5.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text28</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>small,gff1    0.261       medium,gff2   0.654      large,gff3   0.065       rupture,gff4   0.020</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text28>
+        <Text29 Ref="32" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,1.5,4.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text29</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 3.4 Vapor Release Rate Calculation on each hole size     (P3-19)</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text29>
+        <Text30 Ref="33" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.3,1.7,3.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Regular,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text30</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Cd     0.9      C2     1      R     1545     gc     32.2</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text30>
+        <Text31 Ref="34" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,1.9,3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text31</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Transition back pressure, Ptrans (psia) =      24.5</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text31>
+        <Text32 Ref="35" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,2.1,6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Opn Press &lt; Ptrans ==&gt; discharge of vapor at sub-sonic velocity across the release holes.</Text>
+          <TextBrush>Black</TextBrush>
+        </Text32>
+        <Text33 Ref="36" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,2.3,4.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text33</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Sub-Sonic vapor release rate for each hole, Wn</Text>
+          <TextBrush>Black</TextBrush>
+        </Text33>
+        <Text34 Ref="37" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.5,2.5,1.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text34</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.w1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text34>
+        <Text35 Ref="38" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,2.5,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text35</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>w1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text35>
+        <Text36 Ref="39" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.4,2.5,1.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text36</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.w2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text36>
+        <Text37 Ref="40" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.1,2.5,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text37</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>w2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text37>
+        <Text38 Ref="41" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,2.5,1.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text38</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.w3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text38>
+        <Text39 Ref="42" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4,2.5,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text39</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>w3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text39>
+        <Text40 Ref="43" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.2,2.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text40</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.w4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text40>
+        <Text41 Ref="44" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.9,2.5,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text41</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>w4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text41>
+        <Text42 Ref="45" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,2.7,6.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text42</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 5.1 and 5.2 Time required to release 10,000lbs (C3) or total inventory of mass of each holes, sec</Text>
+          <TextBrush>Black</TextBrush>
+        </Text42>
+        <Text43 Ref="46" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,2.9,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text43</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Time1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text43>
+        <Text44 Ref="47" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,2.9,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text44</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Time,</Text>
+          <TextBrush>Black</TextBrush>
+        </Text44>
+        <Text45 Ref="48" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.9,2.9,1.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text45</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.T1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text45>
+        <Text46 Ref="49" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.6,2.9,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text46</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>T1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text46>
+        <Text47 Ref="50" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,2.9,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>58f4302336fc46ac9dddb7ca105487ba</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text47</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Time,</Text>
+          <TextBrush>Black</TextBrush>
+        </Text47>
+        <Text48 Ref="51" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,3.1,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>a64c51eb717c4cbdaaa6c0f5bfaacdb2</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text48</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Time,</Text>
+          <TextBrush>Black</TextBrush>
+        </Text48>
+        <Text49 Ref="52" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,3.1,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>5406b23b2e084937bfef148142fea956</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text49</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Time,</Text>
+          <TextBrush>Black</TextBrush>
+        </Text49>
+        <Text50 Ref="53" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.9,3.1,1.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text50</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.T2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text50>
+        <Text51 Ref="54" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.6,3.1,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text51</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>T2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text51>
+        <Text52 Ref="55" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,3.1,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text52</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Time2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text52>
+        <Text53 Ref="56" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.3,2.9,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text53</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Time3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text53>
+        <Text54 Ref="57" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,2.9,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text54</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.T3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text54>
+        <Text55 Ref="58" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4,2.9,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text55</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>T3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text55>
+        <Text56 Ref="59" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,3.1,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text56</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.T4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text56>
+        <Text57 Ref="60" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4,3.1,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text57</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>T4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text57>
+        <Text58 Ref="61" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.3,3.1,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text58</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Time4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text58>
+        <Text59 Ref="62" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,3.3,4.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Italic,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text59</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>if Tn≤180sec(3minute)the release is instantaneous, otherwise is continuous</Text>
+          <TextBrush>[0:114:188]</TextBrush>
+        </Text59>
+        <Text60 Ref="63" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,3.5,6.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text60</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 6.1,6.2.6.3 &amp; 6.4 Detection and Isolation system and Release reduction factor in plant</Text>
+          <TextBrush>Black</TextBrush>
+        </Text60>
+        <Text61 Ref="64" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1,3.7,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text61</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Detect}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text61>
+        <Text62 Ref="65" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,3.7,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text62</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Detection</Text>
+          <TextBrush>Black</TextBrush>
+        </Text62>
+        <Text63 Ref="66" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.2,3.7,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text63</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Iso}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text63>
+        <Text64 Ref="67" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.4,3.7,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text64</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Isolation</Text>
+          <TextBrush>Black</TextBrush>
+        </Text64>
+        <Text65 Ref="68" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.6,3.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text65</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>reduction factor value,</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text65>
+        <Text66 Ref="69" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.7,3.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>63ec272fa97c492090b4acaa26c5036f</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text66</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>fact di           0.00</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text66>
+        <Text67 Ref="70" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,3.9,2.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text67</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 6.5 Table 5.7 P3-57</Text>
+          <TextBrush>Black</TextBrush>
+        </Text67>
+        <Text68 Ref="71" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,4.1,6.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text68</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Maximum leak durations,(ldmax) in minutes on each hole based on detection and isolation classification</Text>
+          <TextBrush>Black</TextBrush>
+        </Text68>
+        <Text69 Ref="72" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,4.3,6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text69</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Id1(small)   60       ld1(medium)   40       Id3(large)   20 (minutes)</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text69>
+        <Text70 Ref="73" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,4.5,5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text70</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 7.1 Calculate the adjusted release rate (lb/sec)</Text>
+          <TextBrush>Black</TextBrush>
+        </Text70>
+        <Text71 Ref="74" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.6,4.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text71</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.rate1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text71>
+        <Text72 Ref="75" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,4.7,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text72</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>rate1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text72>
+        <Text73 Ref="76" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.3,4.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text73</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.rate4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text73>
+        <Text74 Ref="77" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.9,4.7,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text74</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>rate4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text74>
+        <Text75 Ref="78" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,4.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text75</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.rate2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text75>
+        <Text76 Ref="79" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.1,4.7,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text76</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>rate2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text76>
+        <Text77 Ref="80" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.4,4.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text77</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.rate3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text77>
+        <Text78 Ref="81" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4,4.7,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text78</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>rate3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text78>
+        <Text79 Ref="82" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,4.9,7.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text79</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 7.2 Calculate leak duration in minutes, the minimum value of ldmax in step 6.5</Text>
+          <TextBrush>Black</TextBrush>
+        </Text79>
+        <Text80 Ref="83" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,5.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text80</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.id1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text80>
+        <Text81 Ref="84" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,5.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text81</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Use id1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text81>
+        <Text82 Ref="85" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,5.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text82</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.id2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text82>
+        <Text83 Ref="86" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,5.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text83</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Use id2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text83>
+        <Text84 Ref="87" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,5.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text84</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.id3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text84>
+        <Text85 Ref="88" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,5.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text85</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Use id3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text85>
+        <Text86 Ref="89" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,5.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text86</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.id4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text86>
+        <Text87 Ref="90" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,5.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text87</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Use id4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text87>
+        <Text88 Ref="91" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,5.3,5.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Bold| Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text88</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 7.3 Calculate the release mass for each hole (should not exceed mass available), lbs</Text>
+          <TextBrush>Black</TextBrush>
+        </Text88>
+        <Text89 Ref="92" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,5.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text89</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.mass1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text89>
+        <Text90 Ref="93" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,5.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text90</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>mass1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text90>
+        <Text91 Ref="94" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,5.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text91</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.mass2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text91>
+        <Text92 Ref="95" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,5.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text92</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>mass2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text92>
+        <Text93 Ref="96" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,5.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text93</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.mass3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text93>
+        <Text94 Ref="97" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,5.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text94</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>mass3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text94>
+        <Text95 Ref="98" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,5.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text95</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.mass4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text95>
+        <Text96 Ref="99" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,5.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text96</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>mass4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text96>
+        <Text97 Ref="100" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,5.7,3.7,0.3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text97</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.1 : Consequence Area Reduction Factor,facmt it =</Text>
+          <TextBrush>Black</TextBrush>
+        </Text97>
+        <Text98 Ref="101" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,5.9,3.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text98</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.2 : Energy efficiency correction factor, eneff =</Text>
+          <TextBrush>Black</TextBrush>
+        </Text98>
+        <Text99 Ref="102" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,6.1,6.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text99</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.4 : Component damage consequence area for Auto Ignition Not Likely, Continuous Release,CAc</Text>
+          <TextBrush>Black</TextBrush>
+        </Text99>
+        <Text100 Ref="103" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,5.7,1.9,0.3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text100</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.factMit}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text100>
+        <Text101 Ref="104" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,5.9,1.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text101</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.eneff}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text101>
+        <Text102 Ref="105" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1,6.3,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text102</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CaA}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text102>
+        <Text103 Ref="106" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,6.3,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text103</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>a</Text>
+          <TextBrush>Black</TextBrush>
+        </Text103>
+        <Text104 Ref="107" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.9,6.3,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text104</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CaB}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text104>
+        <Text105 Ref="108" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,6.3,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text105</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>b</Text>
+          <TextBrush>Black</TextBrush>
+        </Text105>
+        <Text106 Ref="109" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.6,6.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text106</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAc1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text106>
+        <Text107 Ref="110" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,6.5,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text107</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAc1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text107>
+        <Text108 Ref="111" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.4,6.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text108</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAc2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text108>
+        <Text109 Ref="112" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,6.5,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text109</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAc2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text109>
+        <Text110 Ref="113" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,6.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text110</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAc3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text110>
+        <Text111 Ref="114" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,6.5,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text111</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAc3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text111>
+        <Text112 Ref="115" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6,6.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text112</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAc4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text112>
+        <Text113 Ref="116" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,6.5,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text113</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAc4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text113>
+        <Text114 Ref="117" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,6.7,7,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text114</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.6 : Component damage consequence area for Auto Ignition Not Likely, Instantaneous Release,CAinst</Text>
+          <TextBrush>Black</TextBrush>
+        </Text114>
+        <Text115 Ref="118" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1,6.9,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text115</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CaInsA}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text115>
+        <Text116 Ref="119" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,6.9,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text116</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>a</Text>
+          <TextBrush>Black</TextBrush>
+        </Text116>
+        <Text117 Ref="120" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.9,6.9,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text117</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CaInsB}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text117>
+        <Text118 Ref="121" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,6.9,0.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text118</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>b</Text>
+          <TextBrush>Black</TextBrush>
+        </Text118>
+        <Text119 Ref="122" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,7.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text119</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAIns1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text119>
+        <Text120 Ref="123" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,7.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text120</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text120>
+        <Text121 Ref="124" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,7.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text121</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAIns2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text121>
+        <Text122 Ref="125" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,7.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text122</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text122>
+        <Text123 Ref="126" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,7.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text123</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAIns3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text123>
+        <Text124 Ref="127" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,7.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text124</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text124>
+        <Text125 Ref="128" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,7.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text125</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAIns4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text125>
+        <Text126 Ref="129" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,7.1,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text126</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text126>
+        <Text127 Ref="130" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,7.3,6.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9.75,Underline,Point,False,0</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text127</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.8 Personal injury consequence areaa for Auto Ignition Not Likely,Continuous Release,CAinj</Text>
+          <TextBrush>Black</TextBrush>
+        </Text127>
+        <Text128 Ref="131" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1,7.5,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text128</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Ainj}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text128>
+        <Text129 Ref="132" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,7.5,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text129</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>ainj</Text>
+          <TextBrush>Black</TextBrush>
+        </Text129>
+        <Text130 Ref="133" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.9,7.5,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text130</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.Binj}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text130>
+        <Text131 Ref="134" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,7.5,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text131</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>binj</Text>
+          <TextBrush>Black</TextBrush>
+        </Text131>
+        <Text132 Ref="135" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,7.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text132</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInj1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text132>
+        <Text133 Ref="136" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,7.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text133</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text133>
+        <Text134 Ref="137" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,7.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text134</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInj2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text134>
+        <Text135 Ref="138" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,7.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text135</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text135>
+        <Text136 Ref="139" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,7.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text136</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInj3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text136>
+        <Text137 Ref="140" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,7.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text137</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text137>
+        <Text138 Ref="141" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,7.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text138</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInj4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text138>
+        <Text139 Ref="142" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,7.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text139</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text139>
+        <Text140 Ref="143" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,7.9,6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Underline</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text140</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.10 : Personal injury consequence area for Auto Ignition Not Likey,Instantaneous, CAinj</Text>
+          <TextBrush>Black</TextBrush>
+        </Text140>
+        <Text141 Ref="144" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1,8.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text141</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.AInsInj}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text141>
+        <Text142 Ref="145" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,8.1,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text142</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>ainj</Text>
+          <TextBrush>Black</TextBrush>
+        </Text142>
+        <Text143 Ref="146" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.9,8.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text143</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.BInsInj}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text143>
+        <Text144 Ref="147" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,8.1,0.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text144</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>binj</Text>
+          <TextBrush>Black</TextBrush>
+        </Text144>
+        <Text145 Ref="148" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,8.3,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text145</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInsInj1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text145>
+        <Text146 Ref="149" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,8.3,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text146</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text146>
+        <Text147 Ref="150" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,8.3,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text147</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInsInj2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text147>
+        <Text148 Ref="151" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,8.3,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text148</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text148>
+        <Text149 Ref="152" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,8.3,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text149</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInsInj3}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text149>
+        <Text150 Ref="153" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,8.3,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text150</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text150>
+        <Text151 Ref="154" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,8.3,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text151</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInsInj4}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text151>
+        <Text152 Ref="155" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,8.3,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text152</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAIns4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text152>
+        <Text153 Ref="156" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,8.5,4.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text153</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.12 : Continuous/Instantaneous blending factor, fact-ic</Text>
+          <TextBrush>Black</TextBrush>
+        </Text153>
+        <Text154 Ref="157" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.9,8.5,1.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text154</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>C5                    55.6</Text>
+          <TextBrush>Black</TextBrush>
+        </Text154>
+        <Text155 Ref="158" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,8.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text155</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.factic1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text155>
+        <Text156 Ref="159" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,8.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text156</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>factic1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text156>
+        <Text157 Ref="160" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,8.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text157</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.factic2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text157>
+        <Text158 Ref="161" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,8.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text158</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>factic2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text158>
+        <Text159 Ref="162" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,8.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text159</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.factic3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text159>
+        <Text160 Ref="163" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,8.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text160</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>factic3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text160>
+        <Text161 Ref="164" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,8.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text161</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.factic4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text161>
+        <Text162 Ref="165" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,8.7,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text162</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>factic4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text162>
+        <Text163 Ref="166" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,8.9,5.3,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text163</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.14 : Continuous/Instantaneous blended consequence area (component damage)</Text>
+          <TextBrush>Black</TextBrush>
+        </Text163>
+        <Text164 Ref="167" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.8,9.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text164</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmd1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text164>
+        <Text165 Ref="168" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,9.1,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text165</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text165>
+        <Text166 Ref="169" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.7,9.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text166</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmd2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text166>
+        <Text167 Ref="170" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.1,9.1,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text167</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text167>
+        <Text168 Ref="171" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.6,9.1,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text168</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmd3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text168>
+        <Text169 Ref="172" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4,9.1,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text169</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text169>
+        <Text170 Ref="173" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.5,9.1,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text170</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmd4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text170>
+        <Text171 Ref="174" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.9,9.1,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text171</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text171>
+        <Text172 Ref="175" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,9.3,5.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text172</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.14 : Continuous/Instantaneous blended consequnce (personnel injury)</Text>
+          <TextBrush>Black</TextBrush>
+        </Text172>
+        <Text173 Ref="176" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,9.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text173</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAbleInj1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text173>
+        <Text174 Ref="177" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,9.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text174</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text174>
+        <Text175 Ref="178" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.5,9.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text175</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAbleInj2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text175>
+        <Text176 Ref="179" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,9.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text176</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text176>
+        <Text177 Ref="180" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.3,9.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text177</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAbleInj3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text177>
+        <Text178 Ref="181" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,9.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text178</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text178>
+        <Text179 Ref="182" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,9.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text179</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAbleInj4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text179>
+        <Text180 Ref="183" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,9.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text180</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text180>
+        <Text181 Ref="184" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,9.7,5.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Underline</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text181</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 8.16 : Final consequence areas for component damage (on each hole size),ft²</Text>
+          <TextBrush>Black</TextBrush>
+        </Text181>
+        <Text182 Ref="185" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.8,9.9,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text182</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmdFinal1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text182>
+        <Text183 Ref="186" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,9.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text183</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text183>
+        <Text184 Ref="187" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,9.9,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text184</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmdFinal2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text184>
+        <Text185 Ref="188" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,9.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text185</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text185>
+        <Text186 Ref="189" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.4,9.9,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text186</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmdFinal3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text186>
+        <Text187 Ref="190" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.8,9.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text187</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text187>
+        <Text188 Ref="191" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.2,9.9,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text188</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmdFinal4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text188>
+        <Text189 Ref="192" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,9.9,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text189</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmd4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text189>
+        <Text190 Ref="193" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1,10.1,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text190</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmdTotal}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text190>
+        <Text191 Ref="194" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,10.1,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text191</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAcmdTotal</Text>
+          <TextBrush>Black</TextBrush>
+        </Text191>
+        <Text192 Ref="195" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,10.1,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Underline</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text192</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAcmdCate}</Text>
+          <TextBrush>[0:114:188]</TextBrush>
+        </Text192>
+        <Text193 Ref="196" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.9,10.1,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text193</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Category</Text>
+          <TextBrush>Black</TextBrush>
+        </Text193>
+        <Text194 Ref="197" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,10.3,5.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Underline</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text194</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>STEP 10.3 Final Personnel Injury Consequence Area (on each hole size), ft²</Text>
+          <TextBrush>Black</TextBrush>
+        </Text194>
+        <Text195 Ref="198" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.7,10.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text195</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInjFinal1}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text195>
+        <Text196 Ref="199" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,10.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text196</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj1</Text>
+          <TextBrush>Black</TextBrush>
+        </Text196>
+        <Text197 Ref="200" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.6,10.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text197</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInjFinal2}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text197>
+        <Text198 Ref="201" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.1,10.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text198</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj2</Text>
+          <TextBrush>Black</TextBrush>
+        </Text198>
+        <Text199 Ref="202" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.5,10.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text199</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInjFinal3}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text199>
+        <Text200 Ref="203" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4,10.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text200</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInj3</Text>
+          <TextBrush>Black</TextBrush>
+        </Text200>
+        <Text201 Ref="204" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.4,10.5,1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text201</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInjFinal4}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text201>
+        <Text202 Ref="205" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.9,10.5,0.5,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text202</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAInjl4</Text>
+          <TextBrush>Black</TextBrush>
+        </Text202>
+        <Text203 Ref="206" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.3,10.7,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text203</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAInjTotal}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text203>
+        <Text204 Ref="207" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.2,10.7,1.1,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text204</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CAnfnt  InjTotal</Text>
+          <TextBrush>Black</TextBrush>
+        </Text204>
+        <Text205 Ref="208" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,10.7,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold| Underline</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text205</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CAinjCate}</Text>
+          <TextBrush>[0:114:188]</TextBrush>
+        </Text205>
+        <Text206 Ref="209" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.9,10.7,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text206</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Category</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text206>
+        <Text16 Ref="210" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.2,1.5,1.2,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text16</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.EquPID}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text16>
+        <Text207 Ref="211" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.8,1.5,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text207</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>TagNo :</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text207>
+        <Text208 Ref="212" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.8,1,1.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>dc64ac6bb4ef4baf82e745ca4417c133</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text208</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>Flammable</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text208>
+        <Text209 Ref="213" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.2,1.2,1.2,0.3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text209</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.ProcessArea}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+        </Text209>
+        <Text210 Ref="214" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.8,1.2,0.4,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text210</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>P-Area :</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text210>
+        <Text211 Ref="215" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.5,1.9,0.9,0.4</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text211</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.FluidStored}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+        </Text211>
+        <Text212 Ref="216" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.8,1.9,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text212</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>FluidStored :</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text212>
+        <Text213 Ref="217" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.5,1.7,0.9,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Guid>2dab7f5c366940c3977f8f8ce809d898</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text213</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>{COF_Flammable.CompName}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text213>
+        <Text214 Ref="218" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.8,1.7,0.8,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Guid>072bf7d3f84b49f895eb3100684d7058</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text214</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>CompName:</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text214>
+        <RectanglePrimitive1 Ref="219" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>5.8,1,1.6,1.3</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>9d34381e97fe4bafb05de7039b87da64</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Size>2</Size>
+        </RectanglePrimitive1>
+        <StartPointPrimitive1 Ref="220" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>5.8,1,0,0</ClientRectangle>
+          <Name>StartPointPrimitive1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ReferenceToGuid>9d34381e97fe4bafb05de7039b87da64</ReferenceToGuid>
+        </StartPointPrimitive1>
+        <EndPointPrimitive1 Ref="221" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>7.4,2.3,0,0</ClientRectangle>
+          <Name>EndPointPrimitive1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ReferenceToGuid>9d34381e97fe4bafb05de7039b87da64</ReferenceToGuid>
+        </EndPointPrimitive1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>c1b1238821174482b6ced94f008cf436</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11.69</PageHeight>
+      <PageWidth>8.27</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="222" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="223" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>1/8/2016 3:44:27 PM</ReportChanged>
+  <ReportCreated>7/11/2014 9:12:32 AM</ReportCreated>
+  <ReportFile>C:\inetpub\wwwroot\RBI\Reports\COF_Flammable_Vapour_Sonic.mrt</ReportFile>
+  <ReportGuid>0b732a77a62e46168fb3265742e884c1</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2013.2.1700</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

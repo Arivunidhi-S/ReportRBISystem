@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <RBI Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>RBI</Alias>
+        <ConnectionString>Initial Catalog=RBI;Integrated Security=False;Password=myplant;User ID=sa;Data Source=localhost</ConnectionString>
+        <Name>RBI</Name>
+      </RBI>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <DataSource1 Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>DataSource1</Alias>
+        <Columns isList="true" count="1">
+          <value>High,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>DataSource1</Name>
+        <NameInSource>RBI</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select count(ChooseRisk)as High from RiskRanking where ChooseRisk='High'</SqlCommand>
+      </DataSource1>
+      <DataSource2 Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>DataSource2</Alias>
+        <Columns isList="true" count="1">
+          <value>MHigh,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>DataSource2</Name>
+        <NameInSource>RBI</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select count(ChooseRisk)as MHigh from RiskRanking where ChooseRisk='Medium High'</SqlCommand>
+      </DataSource2>
+      <DataSource3 Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>DataSource3</Alias>
+        <Columns isList="true" count="1">
+          <value>Medium,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>DataSource3</Name>
+        <NameInSource>RBI</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select count(ChooseRisk)as Medium from RiskRanking where ChooseRisk='Medium'</SqlCommand>
+      </DataSource3>
+      <DataSource4 Ref="6" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>DataSource4</Alias>
+        <Columns isList="true" count="1">
+          <value>Low,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>DataSource4</Name>
+        <NameInSource>RBI</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select count(ChooseRisk)as Low from RiskRanking where ChooseRisk='Low'</SqlCommand>
+      </DataSource4>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart1 Ref="8" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <AllowApplyStyle>False</AllowApplyStyle>
+          <Area Ref="9" type="Stimulsoft.Report.Chart.StiPieArea" isKey="true">
+            <BorderColor>105, 100, 55</BorderColor>
+            <Brush>GradientBrush,[255:255:255],[255:255:245],90</Brush>
+            <Chart isRef="8" />
+          </Area>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>1,0.4,5.8,3.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName />
+          <Filters isList="true" count="0" />
+          <Legend Ref="10" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>105, 100, 55</BorderColor>
+            <Brush>GradientBrush,[255:255:255],[255:255:225],90</Brush>
+            <Chart isRef="8" />
+            <Font>Arial,8</Font>
+            <LabelsColor>105, 100, 55</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <TitleColor>105, 100, 55</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+          </Legend>
+          <Name>Chart1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Series isList="true" count="4">
+            <Item8 Ref="11" type="Stimulsoft.Report.Chart.StiPieSeries" isKey="true">
+              <ArgumentDataColumn>DataSource1.High</ArgumentDataColumn>
+              <BorderColor>124, 69, 0</BorderColor>
+              <Brush>GradientBrush,[224:169:61],[174:119:11],0</Brush>
+              <Chart isRef="8" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <SeriesLabels Ref="12" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>105, 100, 55</BorderColor>
+                <Brush>LemonChiffon</Brush>
+                <Font>Arial,7</Font>
+                <LabelColor>105, 100, 55</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+              </SeriesLabels>
+              <Title>High</Title>
+              <ValueDataColumn>DataSource1.High</ValueDataColumn>
+            </Item8>
+            <Item9 Ref="13" type="Stimulsoft.Report.Chart.StiPieSeries" isKey="true">
+              <ArgumentDataColumn>DataSource2.MHigh</ArgumentDataColumn>
+              <BorderColor>80, 81, 0</BorderColor>
+              <Brush>GradientBrush,[180:181:0],[130:131:0],0</Brush>
+              <Chart isRef="8" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <SeriesLabels Ref="14" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>105, 100, 55</BorderColor>
+                <Brush>LemonChiffon</Brush>
+                <Font>Arial,7</Font>
+                <LabelColor>105, 100, 55</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+              </SeriesLabels>
+              <Title>Medium High</Title>
+              <ValueDataColumn>DataSource2.MHigh</ValueDataColumn>
+            </Item9>
+            <Item10 Ref="15" type="Stimulsoft.Report.Chart.StiPieSeries" isKey="true">
+              <ArgumentDataColumn>DataSource3.Medium</ArgumentDataColumn>
+              <BorderColor>0, 52, 0</BorderColor>
+              <Brush>GradientBrush,[14:152:13],[0:102:0],0</Brush>
+              <Chart isRef="8" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <SeriesLabels Ref="16" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>105, 100, 55</BorderColor>
+                <Brush>LemonChiffon</Brush>
+                <Font>Arial,7</Font>
+                <LabelColor>105, 100, 55</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+              </SeriesLabels>
+              <Title>Medium</Title>
+              <ValueDataColumn>DataSource3.Medium</ValueDataColumn>
+            </Item10>
+            <Item11 Ref="17" type="Stimulsoft.Report.Chart.StiPieSeries" isKey="true">
+              <ArgumentDataColumn>DataSource4.Low</ArgumentDataColumn>
+              <BorderColor>70, 0, 0</BorderColor>
+              <Brush>GradientBrush,[170:72:36],[120:22:0],0</Brush>
+              <Chart isRef="8" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <SeriesLabels Ref="18" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>105, 100, 55</BorderColor>
+                <Brush>LemonChiffon</Brush>
+                <Font>Arial,7</Font>
+                <LabelColor>105, 100, 55</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+              </SeriesLabels>
+              <Title>Low</Title>
+              <ValueDataColumn>DataSource4.Low</ValueDataColumn>
+            </Item11>
+          </Series>
+          <SeriesLabels Ref="19" type="Stimulsoft.Report.Chart.StiInsideEndPieLabels" isKey="true">
+            <BorderColor>105, 100, 55</BorderColor>
+            <Brush>LemonChiffon</Brush>
+            <Chart isRef="8" />
+            <Font>Arial,7</Font>
+            <LabelColor>105, 100, 55</LabelColor>
+            <LegendValueType>SeriesTitleValue</LegendValueType>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueType>SeriesTitleValue</ValueType>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+          </SeriesLabels>
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="20" type="Stimulsoft.Report.Chart.StiStyle05" isKey="true" />
+          <Title Ref="21" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+            <Brush>[105:100:55]</Brush>
+            <Font>Tahoma,12,Bold</Font>
+          </Title>
+        </Chart1>
+        <Text1 Ref="22" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,0.1,1.4,0.4</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,16,Bold| Italic</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Risk Ranking</Text>
+          <TextBrush>[31:73:125]</TextBrush>
+          <Type>Expression</Type>
+        </Text1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>f03efb0016854a0b9b9e1c91e95cd2f7</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="23" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <ShowImageBehind>False</ShowImageBehind>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="24" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>7/24/2014 12:53:19 PM</ReportChanged>
+  <ReportCreated>7/18/2014 11:06:49 AM</ReportCreated>
+  <ReportFile>C:\inetpub\wwwroot\RBI\Reports\Chart_RiskRanking - Copy.mrt</ReportFile>
+  <ReportGuid>1edd26b7d8ce4c9c96f1a77b2cbbf383</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2011.2.1100</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

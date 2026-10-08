@@ -1,4 +1,5 @@
-﻿using Stimulsoft.Base.Design;
+﻿using Microsoft.SqlServer.Server;
+using Stimulsoft.Base.Design;
 using Stimulsoft.Controls.Win.DotNetBar;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Dictionary;
@@ -39,28 +40,22 @@ namespace ReportRBISystem.Controllers
 
         [HttpGet]
         [Route("EquipmentList")]
-        public HttpResponseMessage EquipmentListPdf(int id)
+        public HttpResponseMessage EquipmentListPdf(int id, string format = "pdf")
         {
-            // 1. Dynamic SQL Query
-            string sql = $@"SELECT ROW_NUMBER() OVER(ORDER BY DoshNo DESC) as No,
-                           ProcessArea,DoshNo,EqupID,EqupDescription 
-                    FROM VW__EquipmentAsset 
-                    WHERE ProcessAreaID={id}";
+            // SQL இன்ஜெக்ஷன் தவிர்ப்பதற்காக SQL parameter-ஆக மாற்றுவது நல்லது, தற்போதைக்கு உங்கள் தற்போதைய குறியீட்டின்படி வைக்கப்பட்டுள்ளது
+            string sql = $@"SELECT ROW_NUMBER() OVER(ORDER BY DoshNo DESC) as No, ProcessArea, DoshNo, EqupID, EqupDescription FROM VW__EquipmentAsset WHERE ProcessAreaID={id}";
 
-            // 2. Dynamic Datasource Name
             string datasourceName = "VW__EquipmentAsset";
-
-            // 3. Dynamic MRT Filename
             string mrtFileName = "EquipmentList.mrt";
 
-            // தனி கிளாஸில் உள்ள மெத்தடை இயக்குகிறோம் (Request ஆப்ஜெக்ட்டையும் சேர்த்து அனுப்ப வேண்டும்)
-            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName);
+            // 4-வது ஆர்குமெண்ட்டாக 'format' பராமீட்டர் அனுப்பப்படுகிறது
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
 
         [HttpGet]
         [Route("EquipmentDetails")]
-        public HttpResponseMessage EquipmentDetailsPdf(int id)
+        public HttpResponseMessage EquipmentDetailsPdf(int id, string format = "pdf")
         {
            
             string sql = $@"select * from VW_EquipmentDetails where CompAutoID={id}" ;           
@@ -75,7 +70,7 @@ namespace ReportRBISystem.Controllers
 
         [HttpGet]
         [Route("InspectionDetails")]
-        public HttpResponseMessage InspectionDetailsPdf(int id)
+        public HttpResponseMessage InspectionDetailsPdf(int id, string format = "pdf")
         {
 
             string sql = $@"select *,CONVERT(VARCHAR(10), Initialdate, 103) AS [Indate],Initialvalue,CONVERT(VARCHAR(10), InspecDate, 103) AS
@@ -83,35 +78,35 @@ namespace ReportRBISystem.Controllers
                                 order by EquAutoID,InspectionPointNo,InspecDate";
             string datasourceName = "VW_Inspection";
             string mrtFileName = "Inspection.mrt";
-            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName);
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
         [HttpGet]
         [Route("InspectionChart")]
-        public HttpResponseMessage InspectionChartPdf(int id)
+        public HttpResponseMessage InspectionChartPdf(int id, string format = "pdf")
         {
 
             string sql = $@"select MRT,CONVERT(VARCHAR(10), InspecDate, 103) AS InsDate,InspecDate,ReadingValue,NormalThickness,[Equipment ID],DoshNo,CompName,uCR,RemainingLife 
                             from VW_InspectionChart where CompAutoID={id} and   Deleted=0 and LongCRrate is not null order by EqupID,InspecDate";
             string datasourceName = "VW_InspectionChart";
             string mrtFileName = "Chart_Inspection.mrt";
-            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName);
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
         [HttpGet]
         [Route("POFList")]
-        public HttpResponseMessage POFListPdf(int id)
+        public HttpResponseMessage POFListPdf(int id, string format = "pdf")
         {
 
             string sql = $@"select * from VW_POF where ProcessareaID={id}";
             string datasourceName = "VW_POF";
             string mrtFileName = "POFList.mrt";
-            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName);
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
         [HttpGet]
         [Route("COFFlammableDetails")]
-        public HttpResponseMessage COFFlammableDetailsPdf(int id)
+        public HttpResponseMessage COFFlammableDetailsPdf(int id, string format = "pdf")
         {
 
             // Get connection string from Web.config
@@ -151,12 +146,12 @@ namespace ReportRBISystem.Controllers
             readerdup.Close();
             conn.Close();
 
-            return ReportHelper.GeneratePdfReport(Request, sql,  datasourceName, mrtFileName);
+            return ReportHelper.GeneratePdfReport(Request, sql,  datasourceName, mrtFileName, format);
         }
 
         [HttpGet]
         [Route("COFNonFlammableDetails")]
-        public HttpResponseMessage COFNonFlammableDetailsPdf(int id)
+        public HttpResponseMessage COFNonFlammableDetailsPdf(int id, string format = "pdf")
         {
 
             // Get connection string from Web.config
@@ -196,7 +191,7 @@ namespace ReportRBISystem.Controllers
             readerdup.Close();
             conn.Close();
 
-            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName);
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
         //[HttpGet]

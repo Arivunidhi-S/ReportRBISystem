@@ -13,33 +13,113 @@ using Stimulsoft.Report.Export;
 
 public class ReportHelper
 {
-    public static HttpResponseMessage GeneratePdfReport(HttpRequestMessage request, string sql, string datasourceName, string mrtFileName)
+    //public static HttpResponseMessage GeneratePdfReport(HttpRequestMessage request, string sql, string datasourceName, string mrtFileName)
+    //{
+    //    StiReport report = null;
+
+    //    try
+    //    {
+    //        // Web.config-ல் இருந்து கனெக்ஷன் ஸ்டிரிங் எடுத்தல்
+    //        string connectionString = WebConfigurationManager.ConnectionStrings["RBIDB"]?.ConnectionString;
+
+    //        if (string.IsNullOrWhiteSpace(connectionString))
+    //        {
+    //            return request.CreateErrorResponse(HttpStatusCode.InternalServerError, "RBIDB connection string was not found.");
+    //        }
+
+    //        // டேட்டா செட் தயார் செய்தல் (Dynamic Datasource Name)
+    //        DataSet dataSet = new DataSet();
+    //        dataSet.DataSetName = datasourceName;
+
+    //        using (SqlDataAdapter adapter = new SqlDataAdapter(sql, connectionString))
+    //        {
+    //            dataSet.Tables.Add(datasourceName);
+    //            adapter.Fill(dataSet, datasourceName);
+    //        }
+
+    //        // MRT ஃபைல் பாத் அமைத்தல் (Dynamic File Name)
+    //        string reportPath = HostingEnvironment.MapPath($"~/Reports/{mrtFileName}");
+
+    //        if (string.IsNullOrWhiteSpace(reportPath) || !File.Exists(reportPath))
+    //        {
+    //            return request.CreateErrorResponse(HttpStatusCode.NotFound, $"{mrtFileName} report file was not found.");
+    //        }
+
+    //        // ரிப்போர்ட் லோடிங் மற்றும் செட்டப்
+    //        report = new StiReport();
+    //        report.Load(reportPath);
+    //        report.Dictionary.Databases.Clear();
+    //        report.Dictionary.Databases.Add(new StiSqlDatabase("Connection", connectionString));
+    //        report.Dictionary.DataSources.Clear();
+
+    //        // டேட்டா ரெஜிஸ்டர் செய்தல்
+    //        report.RegData(datasourceName, dataSet);
+    //        report.Dictionary.Synchronize();
+    //        report.Compile();
+    //        report.Render();
+
+    //        // PDF எக்ஸ்போர்ட் மெமரி ஸ்ட்ரீம்
+    //        using (MemoryStream memoryStream = new MemoryStream())
+    //        {
+    //            StiPdfExportService pdfExportService = new StiPdfExportService();
+    //            pdfExportService.ExportPdf(report, memoryStream);
+
+    //            memoryStream.Position = 0;
+    //            byte[] pdfBytes = memoryStream.ToArray();
+
+    //            HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.OK);
+    //            response.Content = new ByteArrayContent(pdfBytes);
+    //            response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
+
+    //            // iframe-ல் தெரிய 'inline' செட்டிங்
+    //            response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("inline")
+    //            {
+    //                FileName = mrtFileName.Replace(".mrt", ".pdf") // எ.கா: EquipmentList.pdf
+    //            };
+
+    //            // Blazor-க்கான CORS ஹெடர்கள்
+    //            response.Headers.Add("Access-Control-Allow-Origin", "*");
+    //            response.Headers.Add("Access-Control-Allow-Methods", "GET");
+    //            response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Accept");
+
+    //            return response;
+    //        }
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        return request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+    //    }
+    //    finally
+    //    {
+    //        if (report != null)
+    //        {
+    //            report.Dispose();
+    //        }
+    //    }
+    //}
+    public static HttpResponseMessage GeneratePdfReport(HttpRequestMessage request, string sql, string datasourceName, string mrtFileName, string reportFormat)
     {
         StiReport report = null;
-
         try
         {
             // Web.config-ல் இருந்து கனெக்ஷன் ஸ்டிரிங் எடுத்தல்
             string connectionString = WebConfigurationManager.ConnectionStrings["RBIDB"]?.ConnectionString;
-
             if (string.IsNullOrWhiteSpace(connectionString))
             {
                 return request.CreateErrorResponse(HttpStatusCode.InternalServerError, "RBIDB connection string was not found.");
             }
 
-            // டேட்டா செட் தயார் செய்தல் (Dynamic Datasource Name)
+            // டேட்டா செட் தயார் செய்தல்
             DataSet dataSet = new DataSet();
             dataSet.DataSetName = datasourceName;
-
             using (SqlDataAdapter adapter = new SqlDataAdapter(sql, connectionString))
             {
                 dataSet.Tables.Add(datasourceName);
                 adapter.Fill(dataSet, datasourceName);
             }
 
-            // MRT ஃபைல் பாத் அமைத்தல் (Dynamic File Name)
+            // MRT ஃபைல் பாத் அமைத்தல்
             string reportPath = HostingEnvironment.MapPath($"~/Reports/{mrtFileName}");
-
             if (string.IsNullOrWhiteSpace(reportPath) || !File.Exists(reportPath))
             {
                 return request.CreateErrorResponse(HttpStatusCode.NotFound, $"{mrtFileName} report file was not found.");
@@ -58,23 +138,40 @@ public class ReportHelper
             report.Compile();
             report.Render();
 
-            // PDF எக்ஸ்போர்ட் மெமரி ஸ்ட்ரீம்
             using (MemoryStream memoryStream = new MemoryStream())
             {
-                StiPdfExportService pdfExportService = new StiPdfExportService();
-                pdfExportService.ExportPdf(report, memoryStream);
+                byte[] fileBytes;
+                string contentType = "application/pdf";
+                string fileExtension = ".pdf";
+                string dispositionType = "inline"; // PDF-க்கு பிரவுசரில் தெரிய inline
+
+                // ஃபார்மேட்டை சரிபார்த்து எக்ஸ்போர்ட் செய்தல்
+                if (!string.IsNullOrWhiteSpace(reportFormat) && reportFormat.Equals("excel", StringComparison.OrdinalIgnoreCase))
+                {
+                    StiExcelExportService excelExportService = new StiExcelExportService();
+                    excelExportService.ExportExcel(report, memoryStream);
+
+                    contentType = "application/vnd.ms-excel";
+                    fileExtension = ".xls";
+                    dispositionType = "attachment"; // எக்ஸெல் நேரடியாக டவுன்லோட் ஆக attachment
+                }
+                else
+                {
+                    StiPdfExportService pdfExportService = new StiPdfExportService();
+                    pdfExportService.ExportPdf(report, memoryStream);
+                }
 
                 memoryStream.Position = 0;
-                byte[] pdfBytes = memoryStream.ToArray();
+                fileBytes = memoryStream.ToArray();
 
                 HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.OK);
-                response.Content = new ByteArrayContent(pdfBytes);
-                response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
+                response.Content = new ByteArrayContent(fileBytes);
+                response.Content.Headers.ContentType = new MediaTypeHeaderValue(contentType);
 
-                // iframe-ல் தெரிய 'inline' செட்டிங்
-                response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("inline")
+                string downloadFileName = mrtFileName.Replace(".mrt", fileExtension);
+                response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue(dispositionType)
                 {
-                    FileName = mrtFileName.Replace(".mrt", ".pdf") // எ.கா: EquipmentList.pdf
+                    FileName = downloadFileName
                 };
 
                 // Blazor-க்கான CORS ஹெடர்கள்
@@ -97,7 +194,6 @@ public class ReportHelper
             }
         }
     }
-
     public static HttpResponseMessage GeneratePdfReport2Val(HttpRequestMessage request, string sql, string sql2, string datasourceName, string datasourceName2, string mrtFileName)
     {
         StiReport report = null;
