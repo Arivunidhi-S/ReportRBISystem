@@ -82,6 +82,17 @@ namespace ReportRBISystem.Controllers
         }
 
         [HttpGet]
+        [Route("Inspectionsummary")]
+        public HttpResponseMessage InspectionsummaryPdf(int id, string format = "pdf")
+        {
+
+            string sql = $@"select * from (select *,row_number() over (partition by compautoid order by processareaid) as row_number from VW_InspectionSummaryExtend ) as rows where row_number = 1 and ProcessAreaID={id} order by EquipID";
+            string datasourceName = "VW_Inspection";
+            string mrtFileName = "InspectionSummaryExtend.mrt";
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
+        }
+
+        [HttpGet]
         [Route("InspectionChart")]
         public HttpResponseMessage InspectionChartPdf(int id, string format = "pdf")
         {

@@ -118,10 +118,10 @@
           <ClientRectangle>0,0.2,15.76,0.5</ClientRectangle>
           <Components isList="true" count="3">
             <Text31 Ref="7" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,0.1,15.7,0.4</ClientRectangle>
+              <Brush>[128:128:255]</Brush>
+              <ClientRectangle>0,0,15.7,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Berlin Sans FB Demi,18,Bold</Font>
+              <Font>Century Gothic,18,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text31</Name>
@@ -158,10 +158,10 @@
           <Components isList="true" count="26">
             <Text6 Ref="11" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>6.8,0,0.7,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text6</Name>
@@ -175,10 +175,10 @@
             </Text6>
             <Text8 Ref="12" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>6.3,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text8</Name>
@@ -193,10 +193,10 @@ Point</Text>
             </Text8>
             <Text10 Ref="13" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>7.5,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text10</Name>
@@ -211,10 +211,10 @@ Value</Text>
             </Text10>
             <Text12 Ref="14" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>8,0,0.7,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text12</Name>
@@ -228,10 +228,10 @@ Value</Text>
             </Text12>
             <Text14 Ref="15" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>8.7,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text14</Name>
@@ -245,10 +245,10 @@ Value</Text>
             </Text14>
             <Text16 Ref="16" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>9.2,0,0.7,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text16</Name>
@@ -262,10 +262,10 @@ Value</Text>
             </Text16>
             <Text18 Ref="17" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>9.9,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text18</Name>
@@ -279,10 +279,10 @@ Value</Text>
             </Text18>
             <Text20 Ref="18" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>10.4,0,0.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text20</Name>
@@ -294,10 +294,10 @@ Value</Text>
             </Text20>
             <Text22 Ref="19" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>11.2,0,0.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text22</Name>
@@ -309,10 +309,10 @@ Value</Text>
             </Text22>
             <Text26 Ref="20" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>12,0,0.4,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,10,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text26</Name>
@@ -324,10 +324,10 @@ Value</Text>
             </Text26>
             <Text27 Ref="21" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>1.5,0,0.6,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <Guid>8a680064eeeb4c6aac30a74763baf72c</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -342,10 +342,10 @@ Value</Text>
             </Text27>
             <Text33 Ref="22" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>0,0,0.7,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text33</Name>
@@ -359,10 +359,10 @@ Value</Text>
             </Text33>
             <Text35 Ref="23" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>0.7,0,0.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text35</Name>
@@ -375,10 +375,10 @@ Value</Text>
             </Text35>
             <Text37 Ref="24" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>2.1,0,0.9,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text37</Name>
@@ -392,10 +392,10 @@ Value</Text>
             </Text37>
             <Text39 Ref="25" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>3.9,0,1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text39</Name>
@@ -409,10 +409,10 @@ Value</Text>
             </Text39>
             <Text4 Ref="26" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>5.3,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
@@ -425,10 +425,10 @@ Value</Text>
             </Text4>
             <Text23 Ref="27" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>4.9,0,0.4,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text23</Name>
@@ -442,10 +442,10 @@ Value</Text>
             </Text23>
             <Text30 Ref="28" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>5.8,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text30</Name>
@@ -459,10 +459,10 @@ Value</Text>
             </Text30>
             <Text41 Ref="29" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>12.4,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text41</Name>
@@ -476,10 +476,10 @@ Value</Text>
             </Text41>
             <Text43 Ref="30" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>12.9,0,0.4,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text43</Name>
@@ -493,10 +493,10 @@ Value</Text>
             </Text43>
             <Text45 Ref="31" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>13.3,0,0.6,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text45</Name>
@@ -510,10 +510,10 @@ Value</Text>
             </Text45>
             <Text47 Ref="32" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>13.9,0,0.4,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text47</Name>
@@ -527,10 +527,10 @@ Value</Text>
             </Text47>
             <Text49 Ref="33" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>14.8,0,0.4,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text49</Name>
@@ -544,10 +544,10 @@ Value</Text>
             </Text49>
             <Text51 Ref="34" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>14.3,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text51</Name>
@@ -561,10 +561,10 @@ Value</Text>
             </Text51>
             <Text53 Ref="35" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>15.2,0,0.5,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text53</Name>
@@ -578,10 +578,10 @@ Value</Text>
             </Text53>
             <Text2 Ref="36" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
-              <Brush>Transparent</Brush>
+              <Brush>[192:192:255]</Brush>
               <ClientRectangle>3,0,0.9,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9,Bold</Font>
+              <Font>Century Gothic,9,Bold,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text2</Name>
@@ -609,7 +609,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.3,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text7</Name>
@@ -625,7 +625,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>7.5,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text9</Name>
@@ -642,7 +642,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>8.7,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text13</Name>
@@ -658,7 +658,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>10.4,0,0.8,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text19</Name>
@@ -674,7 +674,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>11.2,0,0.8,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text21</Name>
@@ -690,7 +690,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.9,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text17</Name>
@@ -705,7 +705,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>6.8,0,0.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text25</Name>
@@ -722,7 +722,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>9.2,0,0.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text5</Name>
@@ -739,7 +739,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>8,0,0.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text11</Name>
@@ -756,7 +756,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>12,0,0.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text24</Name>
@@ -771,7 +771,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>1.5,0,0.6,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text28</Name>
@@ -788,7 +788,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>0,0,0.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text32</Name>
@@ -804,7 +804,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>0.7,0,0.8,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text34</Name>
@@ -820,7 +820,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>2.1,0,0.9,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text36</Name>
@@ -836,7 +836,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>3.9,0,1,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text38</Name>
@@ -852,7 +852,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>5.3,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text3</Name>
@@ -868,7 +868,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>4.9,0,0.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text15</Name>
@@ -884,7 +884,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>5.8,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text29</Name>
@@ -901,7 +901,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>12.4,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text40</Name>
@@ -917,7 +917,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>12.9,0,0.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text42</Name>
@@ -933,7 +933,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>13.3,0,0.6,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text44</Name>
@@ -950,7 +950,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>13.9,0,0.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text46</Name>
@@ -966,7 +966,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.8,0,0.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text48</Name>
@@ -982,7 +982,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>14.3,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text50</Name>
@@ -999,7 +999,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>15.2,0,0.5,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,9</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text52</Name>
@@ -1015,7 +1015,7 @@ Value</Text>
               <Brush>Transparent</Brush>
               <ClientRectangle>3,0,0.9,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Arial,8</Font>
+              <Font>Franklin Gothic Medium,9,Regular,Point,False,0</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
@@ -1079,10 +1079,10 @@ Value</Text>
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>7/3/2015 2:58:50 PM</ReportChanged>
+  <ReportChanged>10/18/2026 6:29:45 PM</ReportChanged>
   <ReportCreated>7/18/2014 11:06:49 AM</ReportCreated>
-  <ReportFile>C:\inetpub\wwwroot\RBI\Reports\InspectionSummaryExtend.mrt</ReportFile>
-  <ReportGuid>59882b074dce42e3a101bd3ea6224aca</ReportGuid>
+  <ReportFile>C:\Users\Arivunithi\source\repos\ReportRBISystem\Reports\InspectionSummaryExtend.mrt</ReportFile>
+  <ReportGuid>68c5fd979cc047fe90e3457e1587b972</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2013.2.1700</ReportVersion>
