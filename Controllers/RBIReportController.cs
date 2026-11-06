@@ -43,7 +43,7 @@ namespace ReportRBISystem.Controllers
         public HttpResponseMessage EquipmentListPdf(int id, string format = "pdf")
         {
             // SQL இன்ஜெக்ஷன் தவிர்ப்பதற்காக SQL parameter-ஆக மாற்றுவது நல்லது, தற்போதைக்கு உங்கள் தற்போதைய குறியீட்டின்படி வைக்கப்பட்டுள்ளது
-            string sql = $@"SELECT ROW_NUMBER() OVER(ORDER BY DoshNo DESC) as No, ProcessArea, DoshNo, EqupID, EqupDescription FROM VW__EquipmentAsset WHERE ProcessAreaID={id}";
+            string sql = $@"SELECT ROW_NUMBER() OVER(ORDER BY DoshNo DESC) as No, ProcessArea, DoshNo, EqupID, EqupDescription FROM VW__EquipmentAsset WHERE ProcessAreaID={id} and where deleted=0";
 
             string datasourceName = "VW__EquipmentAsset";
             string mrtFileName = "EquipmentList.mrt";
@@ -57,14 +57,14 @@ namespace ReportRBISystem.Controllers
         [Route("EquipmentDetails")]
         public HttpResponseMessage EquipmentDetailsPdf(int id, string format = "pdf")
         {
-           
-            string sql = $@"select * from VW_EquipmentDetails where CompAutoID={id}" ;           
+
+            string sql = $@"select * from VW_EquipmentDetails where CompAutoID={id}";
             string datasourceName = "VW_EquipmentDetails";
 
             string sql2 = $@"select * from VW_InspectionPlanForEquipmentDetails where CompID={id}";
             string datasourceName2 = "VW_InspectionPlan";
 
-            string mrtFileName = "EquipmentDetails.mrt";         
+            string mrtFileName = "EquipmentDetails.mrt";
             return ReportHelper.GeneratePdfReport2Val(Request, sql, sql2, datasourceName, datasourceName2, mrtFileName);
         }
 
@@ -121,9 +121,9 @@ namespace ReportRBISystem.Controllers
         {
 
             // Get connection string from Web.config
-           string connectionString = ConfigurationManager.ConnectionStrings["RBIDB"]?.ConnectionString;
+            string connectionString = ConfigurationManager.ConnectionStrings["RBIDB"]?.ConnectionString;
             string sql = $@"select * from VW_COF_Flammable where CompID={id}";
-            string datasourceName = "COF_Flammable";        
+            string datasourceName = "COF_Flammable";
 
             string mrtFileName = null;
 
@@ -157,7 +157,7 @@ namespace ReportRBISystem.Controllers
             readerdup.Close();
             conn.Close();
 
-            return ReportHelper.GeneratePdfReport(Request, sql,  datasourceName, mrtFileName, format);
+            return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
         [HttpGet]
@@ -205,6 +205,34 @@ namespace ReportRBISystem.Controllers
             return ReportHelper.GeneratePdfReport(Request, sql, datasourceName, mrtFileName, format);
         }
 
+        [HttpGet]
+        [Route("DoshListSummary")]
+        public HttpResponseMessage DoshListSummaryExcel(int companyId, int id)
+        {
+            string sql = @"SELECT ROW_NUMBER() OVER(ORDER BY DamageFact,Doshno) as No, [DoshNo],[EquipID],[ProcessArea],[EqupDescription],[CompName],[InspecDate],[DesignCode],[materialspecification],[DesignTemp],[Designpressure],[NormalThickness] as NorminalThick,[Insulated],[fins] as InsulationMaterial,[COF_NonFlammableRepresentativeFluid] as RepresentativeFluid_NonFlame,[Repfluid] as RepresentativeFluid_Flame,[COF_NonFlammableFluid] as Fluid_NonFlame,[Fluid]as Fluid_Flame,[YearInstalled],[OPPressure],[OPTemp],DamageFact as DamageFactor,IntrInsp as Intrusive,NonIntrInsp as NonIntrusive,NextInspectionDate,[FinCOFCate] as FinancialCOFRanking,[COFCate] as COFRanking,[(Choose)Use COF],[Category] as POFCategory,[ChooseRisk] as RiskRanking,[ShortCRrate],[LongCRrate],[uCR],[MRT],[Initialdate],[Initialvalue] as InitialThickness,[Previousdate],[Previousvalue] as PreviousThickness,[InspecDate] as Currentdate,[ReadVal] as CurrentThickness,DATEDIFF(year,[YearInstalled],[InspecDate]) as AgeInService,[RemainingLife],[historydescription] as EquipmentHistory,[DOSHobservation] FROM [VW_InsSummary_Dosh] WHERE companyid=@CompanyID and ProcessareaID=@processAreaId ORDER BY DamageFact,Doshno";
+
+            var parameters = new[]
+            {
+        new SqlParameter("@CompanyID", SqlDbType.Int) { Value = companyId  },
+        new SqlParameter("@processAreaId", SqlDbType.Int) { Value = id }
+             };
+
+            return ReportHelper.GenerateExcelFromSql(Request, sql, parameters, "Dosh List Summary", "DoshListSummary.xlsx");
+        }
+
+        [HttpGet]
+        [Route("RiskRanking")]
+        public HttpResponseMessage RiskRankingExcel(int id)
+        {
+            string sql = @"SELECT [ProcessArea],[EquID] as EquipNo,[EquipType],[CompName],[POFval],[POFCate] as POFCategory,[COFVal],[COFCate] as COFCategory ,[COFRisk],[SelectRisk],[ChooseRisk] as RiskRanking FROM [dbo].[VW_RiskRanking_Save] WHERE ISNULL(deleted,0)=0 and [ProcID]=@processAreaId";
+
+            var parameters = new[]
+            {      
+        new SqlParameter("@processAreaId", SqlDbType.Int) { Value = id }
+             };
+
+            return ReportHelper.GenerateExcelFromSql(Request, sql, parameters, "Risk Ranking", "RiskRanking.xlsx");
+        }
         //[HttpGet]
         //[Route("EquipmentList")]
         //public HttpResponseMessage EquipmentListPdf(int id)

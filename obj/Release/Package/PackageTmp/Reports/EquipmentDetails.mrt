@@ -5,7 +5,7 @@
     <Databases isList="true" count="1">
       <RBI Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
         <Alias>RBI</Alias>
-        <ConnectionStringEncrypted>+WxToe9Ke5lvXaHcYFygL954zYheS+qBy0TNzOVwJXvDIGXJzVmSreFHub1jmOdG0fJpAsVde91hSb3oYXR3F9XEs0tOS0PFfxXtQGCAZQ/cYJsJxkzLHexBpfR6GKJnwxLLCU9b04H5W+gE6lDhe8LIZetFWUJtRU0=</ConnectionStringEncrypted>
+        <ConnectionStringEncrypted>+fK1ic0Fk/nCW6yR5XRrKt4WtwvFcTGBcXv13GA9de+NOJmI3VxDxWsISQT62OkT2XDLAM19Ac16GilMTizrZ/ZUzUxEBUuB4k1ZnHpEd3voVNmJ3l3T7eFG/Zjp7OPb4xTDy9dZ08jxR/1YTuQle+Bw</ConnectionStringEncrypted>
         <Name>RBI</Name>
       </RBI>
     </Databases>
@@ -972,6 +972,7 @@
               <Parent isRef="7" />
               <Text>{VW_EquipmentDetails.historydescription}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text65>
             <Text73 Ref="68" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1191,6 +1192,7 @@
               <Parent isRef="7" />
               <Text>{VW_EquipmentDetails.RBIobservation}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text67>
             <Text69 Ref="84" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1217,6 +1219,7 @@
               <Parent isRef="7" />
               <Text>{VW_EquipmentDetails.DOSHobservation}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text70>
             <Text87 Ref="86" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1458,6 +1461,7 @@
               <Parent isRef="110" />
               <Text>{VW_InspectionPlan.InsEffCate}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
             </Text72>
             <StartPointPrimitive1 Ref="115" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
               <ClientRectangle>0,0,0,0</ClientRectangle>
@@ -1519,10 +1523,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>12/16/2025 11:20:40 AM</ReportChanged>
+  <ReportChanged>10/30/2026 7:47:11 PM</ReportChanged>
   <ReportCreated>8/5/2014 12:34:11 PM</ReportCreated>
-  <ReportFile>C:\inetpub\wwwroot\RBI\Reports\EquipmentDetails.mrt</ReportFile>
-  <ReportGuid>d06144de6d9a4d6db3b5e2c4d7bcb2d9</ReportGuid>
+  <ReportFile>C:\Users\Arivunithi\source\repos\ReportRBISystem\Reports\EquipmentDetails.mrt</ReportFile>
+  <ReportGuid>db0102adce3f4e3894ec699464b8340f</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2013.2.1700</ReportVersion>

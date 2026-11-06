@@ -10,7 +10,7 @@ using System.Web.Hosting;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Report.Export;
-
+using ClosedXML.Excel;
 public class ReportHelper
 {
     //public static HttpResponseMessage GeneratePdfReport(HttpRequestMessage request, string sql, string datasourceName, string mrtFileName)
@@ -286,6 +286,53 @@ public class ReportHelper
             {
                 report.Dispose();
             }
+        }
+    }
+    public static HttpResponseMessage GenerateExcelFromSql(HttpRequestMessage request, string sql, SqlParameter[] parameters, string sheetName, string downloadFileName)
+    {
+        try
+        {
+            string connectionString = WebConfigurationManager.ConnectionStrings["RBIDB"]?.ConnectionString;
+            if (string.IsNullOrWhiteSpace(connectionString))
+            {
+                return request.CreateErrorResponse(HttpStatusCode.InternalServerError, "RBIDB connection string was not found.");
+            }
+
+            using (DataTable dt = new DataTable(sheetName.Replace(" ", "")))
+            using (SqlConnection con = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(sql, con))
+            {
+                if (parameters != null) cmd.Parameters.AddRange(parameters);
+
+                using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                {
+                    sda.Fill(dt);
+                }
+
+                using (XLWorkbook wb = new XLWorkbook())
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    wb.Worksheets.Add(dt, sheetName);
+                    wb.SaveAs(ms);
+
+                    HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.OK);
+                    response.Content = new ByteArrayContent(ms.ToArray());
+                    response.Content.Headers.ContentType =
+                        new MediaTypeHeaderValue("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+                    response.Content.Headers.ContentDisposition =
+                        new ContentDispositionHeaderValue("attachment") { FileName = downloadFileName };
+
+                    response.Headers.Add("Access-Control-Allow-Origin", "*");
+                    response.Headers.Add("Access-Control-Allow-Methods", "GET");
+                    response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Accept");
+
+                    return response;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            return request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
         }
     }
 }

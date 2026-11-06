@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Arivunithi\source\repos\ReportRBISystem\bin\app.publish\</_PublishTargetUrl>
-    <History>True|2026-10-18T13:50:24.9344731Z||;True|2026-10-08T15:01:12.0700513+05:30||;True|2026-09-27T12:44:18.5894506+05:30||;True|2026-09-27T12:43:36.9743319+05:30||;</History>
+    <History>True|2026-11-06T07:37:11.5867610Z||;True|2026-11-04T17:35:41.1804393+05:30||;True|2026-10-18T19:20:24.9344731+05:30||;True|2026-10-08T15:01:12.0700513+05:30||;True|2026-09-27T12:44:18.5894506+05:30||;True|2026-09-27T12:43:36.9743319+05:30||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -11,10 +11,31 @@
       <publishTime>06/18/2026 11:28:11</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/18/2026 19:20:23</publishTime>
+      <publishTime>11/06/2026 13:07:10</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/18/2026 19:20:23</publishTime>
+      <publishTime>11/06/2026 13:07:10</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/16/2020 15:29:08</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.Parser.dll">
+      <publishTime>04/04/2025 04:41:52</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.pdb">
+      <publishTime>12/16/2020 15:29:08</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>06/07/2017 04:29:22</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.Framework.dll">
+      <publishTime>10/16/2024 00:48:56</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>10/02/2020 14:12:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/17/2020 02:45:16</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 16:10:50</publishTime>
@@ -31,11 +52,14 @@
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>03/08/2023 07:09:56</publishTime>
     </File>
+    <File Include="bin/RBush.dll">
+      <publishTime>11/18/2024 21:18:48</publishTime>
+    </File>
     <File Include="bin/ReportRBISystem.dll">
-      <publishTime>10/18/2026 19:20:15</publishTime>
+      <publishTime>11/06/2026 13:07:01</publishTime>
     </File>
     <File Include="bin/ReportRBISystem.pdb">
-      <publishTime>10/18/2026 19:20:15</publishTime>
+      <publishTime>11/06/2026 13:07:01</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -184,6 +208,9 @@
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>08/08/2018 12:18:16</publishTime>
     </File>
+    <File Include="bin/SixLabors.Fonts.dll">
+      <publishTime>08/11/2023 17:34:56</publishTime>
+    </File>
     <File Include="bin/Stimulsoft.Base.dll">
       <publishTime>09/17/2011 09:30:20</publishTime>
     </File>
@@ -221,19 +248,22 @@
       <publishTime>09/17/2011 09:31:16</publishTime>
     </File>
     <File Include="bin/System.Buffers.dll">
-      <publishTime>02/19/2020 15:35:18</publishTime>
+      <publishTime>03/20/2025 02:25:38</publishTime>
+    </File>
+    <File Include="bin/System.IO.Packaging.dll">
+      <publishTime>06/12/2016 04:43:48</publishTime>
     </File>
     <File Include="bin/System.Memory.dll">
-      <publishTime>05/08/2022 09:01:02</publishTime>
+      <publishTime>04/04/2025 04:30:54</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>10/21/2023 02:03:52</publishTime>
     </File>
     <File Include="bin/System.Numerics.Vectors.dll">
-      <publishTime>05/15/2018 18:59:44</publishTime>
+      <publishTime>03/20/2025 02:25:42</publishTime>
     </File>
     <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
-      <publishTime>02/19/2020 15:35:16</publishTime>
+      <publishTime>04/04/2025 04:30:52</publishTime>
     </File>
     <File Include="bin/System.Threading.Tasks.Extensions.dll">
       <publishTime>02/19/2020 15:35:18</publishTime>
@@ -269,7 +299,7 @@
       <publishTime>05/27/2022 23:42:50</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/18/2026 19:20:16</publishTime>
+      <publishTime>11/06/2026 13:07:02</publishTime>
     </File>
     <File Include="Reports/Chart_Inspection - Copy %282%29.mrt">
       <publishTime>09/22/2026 14:36:29</publishTime>
@@ -335,7 +365,7 @@
       <publishTime>09/22/2026 14:36:29</publishTime>
     </File>
     <File Include="Reports/EquipmentDetails.mrt">
-      <publishTime>09/22/2026 14:36:29</publishTime>
+      <publishTime>10/30/2026 19:49:41</publishTime>
     </File>
     <File Include="Reports/EquipmentList.mrt">
       <publishTime>09/24/2026 12:26:13</publishTime>
@@ -374,7 +404,7 @@
       <publishTime>09/22/2026 12:34:54</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/27/2026 12:43:25</publishTime>
+      <publishTime>11/04/2026 17:35:31</publishTime>
     </File>
   </ItemGroup>
 </Project>
