@@ -224,7 +224,7 @@ namespace ReportRBISystem.Controllers
         [Route("RiskRanking")]
         public HttpResponseMessage RiskRankingExcel(int id)
         {
-            string sql = @"SELECT [ProcessArea],[EquID] as EquipNo,[EquipType],[CompName],[POFval],[POFCate] as POFCategory,[COFVal],[COFCate] as COFCategory ,[COFRisk],[SelectRisk],[ChooseRisk] as RiskRanking FROM [dbo].[VW_RiskRanking_Save] WHERE ISNULL(deleted,0)=0 and [ProcID]=@processAreaId";
+            string sql = @"SELECT [ProcessArea],[EquPID] as EquipNo,[EquipType],[CompName],[POFval],[POFCate] as POFCategory,[COFVal],[COFCate] as COFCategory ,[COFRisk],[SelectRisk],[ChooseRisk] as RiskRanking FROM [dbo].[VW_RiskRanking_Save] WHERE ISNULL(deleted,0)=0 and [ProcID]=@processAreaId";
 
             var parameters = new[]
             {      
